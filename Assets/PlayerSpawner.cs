@@ -26,7 +26,8 @@ public class PlayerSpawner : MonoBehaviour {
 		if(playerInstance == null && numLives > 0) {
 			respawnTimer -= Time.deltaTime;
 
-			if(respawnTimer <= 0) {
+			if(respawnTimer <= 0)
+			{
 				SpawnPlayer();
 			}
 		}
