@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#cmd //C "$@"
+powershell ./list_status_checks.ps1
